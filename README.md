@@ -1,8 +1,11 @@
 # TestSharingApp
 CloudKit sharing app example
 
-The app is used to test certain features of the cloud sharing. It is based on snippets of a larger app and uses an existing container from the larger app. Features tested are add, deletion and sharing records. The original app uses UIKit, as does this example.  Conversion to SwiftUI is not practical at this time.
-Currently the share feature does not work correctly. While the app does bring up the UICloudSharingController, but the Controller will not display the add users option. Help is needed here: 
+The app is used to test certain features of the cloud sharing. It is based on snippets of a larger app and uses an existing container 
+from the larger app. Features tested are add, deletion and sharing records. The original app uses UIKit, as does this example.  
+Conversion to SwiftUI is not practical at this time.
+Currently the share feature does not work correctly. While the app does bring up the UICloudSharingController, but the Controller 
+will not display the add users option. Help is needed here: 
 
 @IBAction func shareRecord(_ sender: Any) {
         let recIDString = selNo.text!
